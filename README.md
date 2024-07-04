@@ -14,6 +14,7 @@ Open Sound Control data remap script, for converting iOS [Data OSC](https://apps
 
 ## Known Issues
 
+- Data OSC (as of 1.1.0) doesn't keep the screen on, and stops sending data after screen lock; disable automatic screen lock in iOS settings for prolonged use.
 - dearVR Spatial Connect Adapter on macOS does not work well with any application that tampers the menu bar icons (e.g. Bartender or Ice); close them before using the adapter.
 - dearVR VST plugins perform very badly when loaded by any ROGUE AMOEBA applications (Audio Hijack, Loopback, SoundSource, etc.); it's better to use them in DAWs.
-- dearVR VST plugins currently only support head tracking in the horizontal plane.
+- dearVR VST plugins currently only support head tracking in the horizontal plane (rotation).
